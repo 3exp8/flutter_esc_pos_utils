@@ -29,9 +29,9 @@ const cKanjiOn = '$fs&'; // Select Kanji character mode
 const cKanjiOff = '$fs.'; // Cancel Kanji character mode
 
 // Print Position
-const cAlignLeft = '$esc\x610'; // Left justification
-const cAlignCenter = '$esc\x611'; // Centered
-const cAlignRight = '$esc\x612'; // Right justification
+const cAlignLeft = '${esc}a0'; // Left justification
+const cAlignCenter = '${esc}a1'; // Centered
+const cAlignRight = '${esc}a2'; // Right justification
 const cPos = '$esc\$'; // Set absolute print position [nL] [nH]
 
 // Print
